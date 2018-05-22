@@ -1,0 +1,100 @@
+/*
+* @Author: devyojan
+* @Date:   2018-05-22 05:19:00
+* @Last Modified by:   devyojan
+* @Last Modified time: 2018-05-22 18:13:10
+*/
+
+body
+{
+    font-family: sans-serif;
+}
+
+#container
+{
+    width: 90%;
+    margin: 4% auto;
+    padding: 1%;
+
+    text-align: center;
+
+    color: white;
+    border-radius: 20px;
+    background: #2a2a2c;
+}
+
+#searchButton
+{
+    font-size: 16px;
+
+    display: inline-block;
+
+    padding: 10px 27px;
+
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background: #217b00;
+}
+
+#searchButton:hover
+{
+    cursor: pointer;
+
+    color: black;
+    background: white;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#des a
+{
+    color: #fef9f9;
+}
+
+#des a:hover
+{
+    padding: 5px;
+
+    color: #252854;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#searchText
+{
+    width: 40%;
+    padding: 5px;
+}
+
+#searchText:focus
+{
+    border-color: #217b00;
+}
+
+#errorMessage
+{
+    padding: 2px;
+
+    color: red;
+}
+
+.links
+{
+    margin-top: 1%;
+    padding: 1px 6px 1px 6px;
+
+    text-align: justify;
+
+    color: black;
+    border-radius: 5px;
+    background: white;
+}
+
+.links:hover
+{
+    border-left: 5px solid #158c1e;
+}
